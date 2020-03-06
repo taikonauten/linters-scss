@@ -1,6 +1,6 @@
 {
   "name": "@taikonauten/linters-scss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package provides the SCSS / CSS linter used at Taikonauten",
   "license": "MIT",
   "keywords": [
