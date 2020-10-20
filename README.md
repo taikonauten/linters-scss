@@ -28,7 +28,7 @@ The following important settings are applied to all SCSS files generated or work
 Run the following two commands in your terminal to install the package and then create a symlink to the .stylelintrc file:
 
 ```bash
-npm install --save-dev @taikonauten/linters-scss
+npm install --save-dev @taikonauten/linters-scss stylelint-scss stylelint-selector-bem-pattern stylelint-config-standard
 
 ln -s node_modules/@taikonauten/linters-scss/.stylelintrc .stylelintrc
 ```
