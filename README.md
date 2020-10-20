@@ -2,11 +2,11 @@
   <img src="https://i.imgur.com/dV1aZjJ.png" title="Taikonauten">
 </p>
 
-<h1 align="center">Taikonauten SCSS / CSS Linter</h1>
+<h1 align="center">Taikonauten SCSS Linter</h1>
 
 <p>&nbsp;</p>
 
-This package provides the SCSS / CSS linter used at [Taikonauten](https://taikonauten.com).
+This package provides the SCSS linter used at [Taikonauten](https://taikonauten.com).
 
 ## Description
 
@@ -14,7 +14,7 @@ This package provides the SCSS / CSS linter used at [Taikonauten](https://taikon
 
 ## Configuration
 
-The configuration is intended to be used with BEM. Other methodologies may result in issues with this linter.  
+The configuration is intended to be used with BEM. Other methodologies may result in issues with this linter.
 The following important settings are applied to all SCSS files generated or worked with at Taikonauten:
 
 * Spaces are used for indentation. The default indent is 2 spaces.
@@ -37,21 +37,14 @@ You may also want to add a new script to quickly run Stylelint:
 
 ```
 "scripts": {
-    "lint-scss": "stylelint path-to-styles/*.scss"
+  "lint-scss": "stylelint path-to-styles/*.scss"
 }
 ```
 
-After that, make sure your editor or IDE supports the .stylelintrc file. PhpStorm works with it right out of the box.  
-For Sublime Text, install the [SublimeLinter-stylelint](https://github.com/SublimeLinter/SublimeLinter-stylelint) plugin.  
-For Atom, install the [linter-stylelint](https://atom.io/packages/linter-stylelint) plugin.  
+After that, make sure your editor or IDE supports the .stylelintrc file. PhpStorm works with it right out of the box.
+For Sublime Text, install the [SublimeLinter-stylelint](https://github.com/SublimeLinter/SublimeLinter-stylelint) plugin.
+For Atom, install the [linter-stylelint](https://atom.io/packages/linter-stylelint) plugin.
 For VS Code, install the [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) plugin.
-
-## Testing
-
-Use the `npm run test` command.
-
-* The `correct.scss` file MUST not return errors.
-* The `wrong.scss` file MUST return errors.
 
 ---
 

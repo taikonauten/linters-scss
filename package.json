@@ -10,7 +10,8 @@
     "SCSS"
   ],
   "contributors": [
-    "Kevin Woblick <kw@taikonauten.com>"
+    "Kevin Woblick <kw@taikonauten.com>",
+    "Tobias Schubert <ts@taikonauten.com>"
   ],
   "homepage": "https://github.com/taikonauten/linters-scss#readme",
   "repository": {
@@ -20,11 +21,5 @@
   "bugs": {
     "url": "https://github.com/taikonauten/linters-scss/issues"
   },
-  "dependencies": {
-    "stylelint": "^12.0.0",
-    "stylelint-scss": "^3.17.2"
-  },
-  "scripts": {
-    "test": "stylelint test/*.scss --formatter=verbose"
-  }
+  "dependencies": {}
 }
