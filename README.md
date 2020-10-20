@@ -2,15 +2,15 @@
   <img src="https://i.imgur.com/dV1aZjJ.png" title="Taikonauten">
 </p>
 
-<h1 align="center">Taikonauten SCSS Linter</h1>
+<h1 align="center">Taikonauten SCSS / CSS Linter</h1>
 
 <p>&nbsp;</p>
 
-This package provides the SCSS linter used at [Taikonauten](https://taikonauten.com).
+This package provides the SCSS / CSS linter used at [Taikonauten](https://taikonauten.com).
 
 ## Description
 
-[Stylelint](https://stylelint.io/) is a modern tool to lint CSS files. It can easily be extended with plugins. In our case, we are using the `scss` plugin for support of SCSS files. The `.stylelintrc` file shipped with this repository contains the current ruleset used at Taikonauten. Most of the rules are default settings for Stylelint and more or less a standard for writing SCSS.
+[stylelint](https://stylelint.io/) is a modern tool to lint CSS files. It can easily be extended with plugins. In our case, we are using the `scss` plugin for support of SCSS files. The `.stylelintrc` file shipped with this repository contains the current ruleset used at Taikonauten. Most of the rules are default settings for stylelint and more or less a standard for writing SCSS.
 
 ## Configuration
 
@@ -33,9 +33,9 @@ npm install --save-dev @taikonauten/linters-scss
 ln -s node_modules/@taikonauten/linters-scss/.stylelintrc .stylelintrc
 ```
 
-You may also want to add a new script to quickly run Stylelint:
+You may also want to add a new script in your `package.json` to quickly run stylelint:
 
-```
+```json
 "scripts": {
   "lint-scss": "stylelint path-to-styles/*.scss"
 }
