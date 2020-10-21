@@ -29,8 +29,14 @@ Run the following two commands in your terminal to install the package and then 
 
 ```bash
 npm install --save-dev @taikonauten/linters-scss stylelint-scss stylelint-selector-bem-pattern stylelint-config-standard
+```
 
-ln -s node_modules/@taikonauten/linters-scss/.stylelintrc .stylelintrc
+Create a `.stylelintrc` file in your project root
+```json
+{
+  "extends": "./node_modules/@taikonauten/linters-scss/index.js",
+  "rules": {}
+}
 ```
 
 You may also want to add a new script in your `package.json` to quickly run stylelint:
