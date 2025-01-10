@@ -28,16 +28,14 @@ The following important settings are applied to all SCSS files generated or work
 Run the following two commands in your terminal to install the package and then create a symlink to the .stylelintrc file:
 
 ```bash
-npm install --save-dev @taikonauten/linters-scss stylelint-selector-bem-pattern stylelint-config-standard-scss
+npm install --save-dev @taikonauten/linters-scss stylelint stylelint-selector-bem-pattern stylelint-config-standard-scss
 ```
 
 Create a `.stylelintrc` file in your project root
 
 ```json
 {
-  "extends": "./node_modules/@taikonauten/linters-scss/index.js",
-  "rules": {},
-  "ignoreFiles": []
+  "extends": "./node_modules/@taikonauten/linters-scss/index.js"
 }
 ```
 
