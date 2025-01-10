@@ -2,11 +2,11 @@
   <img src="https://i.imgur.com/dV1aZjJ.png" title="Taikonauten">
 </p>
 
-<h1 align="center">Taikonauten SCSS / CSS Linter</h1>
+<h1 align="center">Taikonauten SCSS stylelint rules</h1>
 
 <p>&nbsp;</p>
 
-This package provides the SCSS / CSS linter used at [Taikonauten](https://taikonauten.com).
+This package provides the SCSS stylelint rules used at [Taikonauten](https://taikonauten.com).
 
 ## Description
 
@@ -32,11 +32,11 @@ npm install --save-dev @taikonauten/linters-scss stylelint-selector-bem-pattern 
 ```
 
 Create a `.stylelintrc` file in your project root
+
 ```json
 {
   "extends": "./node_modules/@taikonauten/linters-scss/index.js",
   "rules": {},
-  ,
   "ignoreFiles": []
 }
 ```
